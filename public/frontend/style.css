@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+:root {
+    --primary-color: #004d40;   /* Forest Teal */
+    --secondary-color: #00acc1; /* Bright Cyan */
+    --text-color: #263238;      /* Slate Grey */
+    --bg-color: #ffffff;        /* Pure White */
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: "Google Sans", sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
