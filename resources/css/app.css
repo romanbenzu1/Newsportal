@@ -13,3 +13,58 @@
 @plugin "flowbite/plugin";
 @source "../../node_modules/flowbite";
 
+:root {
+    --primary-color: #004d40;   /* Forest Teal */
+    --secondary-color: #00acc1; /* Bright Cyan */
+    --text-color: #263238;      /* Slate Grey */
+    --bg-color: #ffffff;        /* Pure White */
+    --card-bg: #ffffff;
+    /* white card */
+    --border-color: #e5e7eb;
+    /* light border */
+}
+
+
+
+@layer utilities {
+    .bg-primary {
+        background-color: var(--primary-color);
+    }
+
+    .text-primary {
+        color: var(--primary-color);
+    }
+
+    .border-primary {
+        border-color: var(--primary-color);
+    }
+
+    .ring-primary {
+        --tw-ring-color: var(--primary-color);
+    }
+
+    .bg-secondary {
+        background-color: var(--secondary-color);
+    }
+
+    .text-secondary {
+        color: var(--secondary-color);
+    }
+
+    .border-secondary {
+        border-color: var(--secondary-color);
+    }
+
+    .text-text {
+        color: var(--text-color);
+    }
+
+    .bg-bg {
+        background-color: var(--bg-color);
+    }
+
+    .bg-card {
+        background-color: var(--card-bg);
+    }
+}
+
