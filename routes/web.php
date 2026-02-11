@@ -5,10 +5,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ArticleController;
+use App\Http\Controllers\Admin\AdvertiseController;
+
 
 
 
 Route::get("/", [PageController::class, "home"])->name("home");
+Route::get("/category/{slug}", [PageController::class, "category"])->name("category");
 
 
 Route::get('/dashboard', function () {
@@ -21,6 +24,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource("/admin/category", CategoryController::class)->names('admin.category');
     Route::resource("/admin/article", ArticleController::class)->names('admin.article');
+    Route::resource("/admin/advertise", AdvertiseController::class)->names('admin.advertise');
 });
 
 require __DIR__.'/auth.php';
