@@ -7,10 +7,10 @@ Nawa Aawaj delivers categorized news articles with SEO optimization, advertiseme
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots\homepage.jpeg)
+![Homepage](screenshots/homepage.jpeg)
 
 ### 📰 Article Page
-![Article Page](screenshots\article.jpeg)
+![Article Page](screenshots/article.jpeg)
 
 ### 🧑‍💻 Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
