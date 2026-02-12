@@ -6,7 +6,7 @@
         @if ($header_advertise)
             <div>
                 <a href="{{ $header_advertise->redirect_url }}" target="_blank">
-                    <img class="h-14 md:h-20 w-48 md:w-64 " src="{{ asset($header_advertise->image) }}" alt="">
+                    <img class="h-14 md:h-20 w-48 md:w-100 " src="{{ asset($header_advertise->image) }}" alt="">
                 </a>
             </div>
         @endif
